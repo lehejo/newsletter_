@@ -72,7 +72,7 @@
         <article>
             <p>미리보는 뉴스</p>
             <h2>수상할 정도로 오르는 금값</h2>
-            <img src="C:\Users\lehej\OneDrive\바탕 화면\금.png" alt="금 이미지" style="width: 50%; height: auto;"> // 금 사진
+            <img src="C:\Users\lehej\OneDrive\바탕 화면\금.png" alt="금 이미지" style="width: 50%; height: auto;">
             <p>요즘 국제 금값이 확 뛰고 있다는 소식, 혹시 알고 있나요? 금값이 오르자 '나도 금 투자해볼까?' 하는 사람도 늘었는데요.
                 금값이 오르는 이유가 뭔지, 금 투자는 어떻게 할 수 있는지 정리했어요</p>
             <h3>금값이 오르고 있다고?</h3>
@@ -96,7 +96,7 @@
 
         <article>
             <h2>트위치, 한국에서 철수합니다🧳</h2>
-            <img src="C:\Users\lehej\OneDrive\바탕 화면\트위치.svg.png" alt="트위치 이미지 "style="width: 30%; height: auto;"> // 트위치 사진
+            <img src="C:\Users\lehej\OneDrive\바탕 화면\트위치.svg.png" alt="트위치 이미지 "style="width: 30%; height: auto;"> 
             <p>스트리밍 플랫폼 ‘트위치’가 한국에서 사업을 철수하기로 했어요. 내년 2월 27일 이후로 국내에서 유료 상품을 구매할 수 없고, 스트리머들도 수익을 얻을 수 없게 된다고.
                 트위치는 우리나라의 망 사용료가 다른 나라보다 10배나 높아 비용부담 때문에 더 이상 운영할 수 없다는 입장이에요. 한편 이 소식에 ‘아프리카TV’ 등 경쟁사의 주가가 치솟았어요.
                 트위치가 철수하면 국내 스트리밍 기업들이 반사 이익을 얻을 거라는 기대 때문인 것 같다고.</p>
@@ -109,6 +109,18 @@
                 <input type="email" id="email" placeholder="이메일 주소" required>
                 <button type="button" onclick="subscribe()">신청</button>
             </form>
+            <script>
+                function subscribe() {
+                    var confirmation = confirm("매일마다 이 이메일로 뉴스를 보내줄게요!");
+                if (confirmation) {
+                    alert("구독이 완료되었습니다!");
+                } else {
+                    // 팝업 창을 닫음
+                    window.close();
+                }
+                }
+            </script>
+    
     </section>    
 </body>
 </html>
